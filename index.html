@@ -4,12 +4,159 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="Product WebAR tool to demonstrate medical equipment for Roche Diagnostics">
         <meta name="author" content="Imagine Then Create 3D of Empyreal X LLC">
+	    
         <!-- Mobile Specific Meta -->
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	    
         <!-- CSS -->
+	<link rel="stylesheet" href="https://use.typekit.net/hqw8qvc.css">
     </head>
+	
 
-    <body>
-        <iframe id="fcec7a8a-ec7c-4807-85e8-fe2687b0f715" src="https://app.vectary.com/viewer/v1/?model=fcec7a8a-ec7c-4807-85e8-fe2687b0f715&env=studio3&turntable=3&arAllowScaling=0" frameborder="0" width="100%" height="480"></iframe>
-    </body>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Imago, sans-serif;
+}
+.hero {
+ position: relative;
+}
+
+.hero-overlay {
+  text-align: center;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(202, 222, 243, 0.5), rgba(38, 103, 197, 0.5));
+
+}
+h1 {
+  font-size: 6vw;
+  transform: translateY(10vw);
+  color: #ffffff; 
+  font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+h2 {
+  font-size: 5vw;
+  transform: translateY(10vw);
+  color: #ffffff; 
+  font-family: minion-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.hero-image {
+  display: block;
+  z-index:-1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+button {
+  transform: translateY(10vw);
+
+}
+
+/* COLUMN STYLE*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px;
+
+}
+.column-right {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column-right {
+    width: 100%;
+  }
+}
+/* END COLUMN STYLE*/
+
+
+</style>
+</head>
+<body>
+
+
+<div class="hero">
+  <div class="hero-overlay">
+    <h1>Cobas 5800 WebAR Viewer</h1>
+    
+    <h2>Innovation made accessible</h2>
+    <button>Cobas 5800 Info Page</button>
+    <button>Review WebAR Instructions</button>
+  </div>
+  <img src="https://roche63-h.assetsadobe2.com/is/image/content/dam/diagnostics/us/en/products/c/cobas-5800/cobas-5800-lrg-hero.png?wid=1440&hei=702&fmt=png-alpha" class="hero-image">
+</div>
+
+<p>Roche has created a new web-based tool for you to seamlessly view and interact with a full-scale digital twin 3D model of the Cobas 5800 directly in your space. Roche remains committed to supporting laboratories in meeting both their own needs and the needs of the patients everywhere.</p>
+
+<h3 style="text-align:center;">How to interact with the WebAR Viewer</h3>
+
+<div class="row">
+  <div class="column" style="background-color:#ccdff5;">
+    <h3>Instructions for Desktop</h3>
+    <p>Click the 'AR' Icon. Scan the QR Code with a smartphone.</p>
+    <ul>
+      <li><b>Rotate:</b> Left-click and drag your mouse cursor along the scene canvas</li>
+      <li><b>Pan:</b> Right-click and drag your mouse cursor</li>
+      <li><b>Zoom:</b> Scroll your mouse</li>
+      <li><b>Quick Zoom:</b> Click mouse wheel and drag the mouse</li>
+      <li><b>Change View:</b> 'TAB' key to cycle between orthogonal views (front, top, right, left, back, bottom)</li>
+      <li><b>Fit view:</b> 'A' key (helps you quickly fit all objects in the scene, if nothing is selected)</li>
+    </ul>
+  </div>
+  <div class="column-right" style="background-color:#ebf2f9;">
+    <h3>Instructions for Mobile</h3>
+        <p>Tap the 'AR' Icon.</p>
+    <ul>
+      <li><b>Rotate:</b> Touch model with two fingers and rotate both fingers</li>
+      <li><b>Pan:</b> Touch and hold 3D model with a finger and drag around your space</li>
+      <li><b>Fit view:</b> Double tap 3D model with a finger</li>
+    </ul>
+  </div>
+</div>
+
+<h3 style="text-align:center;">Ready to view?</h3>
+
+<iframe id="fcec7a8a-ec7c-4807-85e8-fe2687b0f715" src="https://app.vectary.com/viewer/v1/?model=fcec7a8a-ec7c-4807-85e8-fe2687b0f715&env=studio3&turntable=3&arAllowScaling=0" frameborder="0" width="100%" height="480"></iframe>
+
+<footer style="text-align: center;">
+  <p>Made with ❤️ by <a href="https://www.empyrealx.com" target="_blank">Imagine Then Create 3D</a></p>
+</footer>
+
+</body>
+</html>
 
